@@ -70,6 +70,13 @@ ___
 - argparse  
 - onnxruntime (If onnx file needs to be run.)  
   
+## Use(photo->anime)
+  > `python test.py --checkpoint_dir checkpoint/generator_Hayao_weight --test_dir dataset/test/HR_photo --save_dir Hayao/HR_photo`
+>
+## Use(video->anime)
+  > `python video2anime.py --video video/input/お花見.mp4 --checkpoint_dir checkpoint/generator_Hayao_weight --output video/output`
+> 
+
 ## Usage  
 ### 1. Inference  
   > `python test.py  --checkpoint_dir  checkpoint/generator_Hayao_weight  --test_dir dataset/test/HR_photo --save_dir Hayao/HR_photo`  
